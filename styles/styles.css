@@ -1,0 +1,93 @@
+/* body{
+    width: 100vw;
+    height: 100vh;
+} */
+.background{
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+.header{
+    height: 100vh;
+    width: 100vw;
+    background: url("https://www.plex.tv/wp-content/uploads/2019/01/hero-homepage-2019-1800x1185.jpg") center  center/cover no-repeat ;
+    /* display: block; */
+    /* position: relative; */
+   
+}
+.image{
+    opacity: 0.5;
+    inline-size: 100px;
+
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+}
+.navbar{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+li:hover{
+    color: orange;
+    cursor: pointer;
+}
+.paragragh{
+ text-align: center;
+ margin: 100px auto;
+
+}
+.streame{
+    font-size: 60px;
+    color: white;
+}
+.paragragh p{
+    color: rgb(187, 181, 181);
+    font-size: x-large;
+}
+.boxes{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    margin-top: 170px;
+}
+.boxes > div{
+    background-color: rgba(36, 34, 34, 0.486);
+    width: 450px;
+    height:400px;
+    transition: step-end;
+}
+.boxes > div:hover{
+    background-color: white;
+    transform: scale(1.1);
+
+}
+.register{
+    background-color: orange ;
+    border-radius: 1000px;
+    padding: 10px;
+}
+.register:hover{
+    color: white;
+    background-color: rgba(255, 166, 0, 0.801);
+}
+h2{
+    color: white;
+}
+.boxes  div:hover h2,
+.boxes div:hover p{
+    color: rgb(34, 33, 33);
+}
+.boxes div img, h2, p, a{
+    margin: 25px ;
+}
+.attribute{
+    background-color: orange;
+    padding: 20px;
+    border-radius: 20%;
+    color: white;
+}
